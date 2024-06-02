@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Github Favorites</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="src/main.js" type="module" defer></script>
+</head>
+<body>  
+  
+  <div id="app">
+    <header>
+      <img src="assets/Gitfav.svg">
+      <div class="search">
+        <input type="text" placeholder="Digite o Github username que quer favoritar">
+        <button class="search-button"><img src="assets/star.svg">FAVORITAR</button>
+      </div>
+    </header>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Usuário</th>
+          <th class="th-repositories">Repositórios</th>
+          <th class="th-followers">Seguidores</th>
+          <th>Ação</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="user">
+            <img src="https://github.com/mauricioraupp.png">
+            <a href="https://github.com/mauricioraupp" target="_blank">
+              <p> Mauricio Raupp </p>
+              <span> mauricioraupp </span>
+            </a>
+          </td>
+          <td class="repositories"> 30 </td>
+          <td class="followers"> 20 </td>
+          <td class="remove-button"><a>Remover</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
