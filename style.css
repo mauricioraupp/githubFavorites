@@ -196,7 +196,6 @@ table tr:nth-child(even){
 ::-webkit-scrollbar {
   scroll-padding-left: 10px;
   width: 8px;
-  margin-bottom: 100px;
 }
 
 ::-webkit-scrollbar-track {
